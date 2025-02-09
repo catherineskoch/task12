@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 1</title>
+    <link rel="stylesheet" href="css/style_1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Задание 1 — Холодильник <br />
+        Представьте, что вы проверяете, пуст ли холодильник, перед походом в
+        магазин. <br />
+        При нажатии на кнопку "открыть" происходит генерация случайного числа (1
+        или 0)
+      </p>
+      <div class="fridge">
+        <div class="fridge__elem close" id="fridgeClosed">
+          <button class="button" id="openButton">открыть</button>
+        </div>
+        <div class="fridge__elem open-empty hidden" id="fridgeOpenEmpty">
+          <button class="button" id="closeEmptyButton">закрыть</button>
+        </div>
+        <div class="fridge__elem open-full hidden" id="fridgeOpenFull">
+          <button class="button" id="closeFullButton">закрыть</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/script_1.js"></script>
+  </body>
+</html>
